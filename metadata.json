@@ -1,0 +1,6 @@
+{
+  "name": "Meghna Jewellery - Antique & Trending Fine Jewellery",
+  "description": "Exquisite handcrafted antique and trending jewellery, temple necklaces, jadau polki, heritage kadas, and bridal heirloom collections.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
