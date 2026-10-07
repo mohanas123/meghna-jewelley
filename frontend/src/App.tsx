@@ -8,7 +8,16 @@ import { ToastContainer } from './components/ToastContainer.tsx';
 import { Navbar } from './components/Navbar.tsx';
 import { Hero } from './components/Hero.tsx';
 import { TrustBanner } from './components/TrustBanner.tsx';
+import { SessionQuickNavigator } from './components/SessionQuickNavigator.tsx';
+import { AntiqueEpochsShowcase } from './components/AntiqueEpochsShowcase.tsx';
+import { AntiqueStylingLookbook } from './components/AntiqueStylingLookbook.tsx';
+import { TrousseauCuratorSession } from './components/TrousseauCuratorSession.tsx';
+import { AntiquePairingStudio } from './components/AntiquePairingStudio.tsx';
+import { CollectorVaultSection } from './components/CollectorVaultSection.tsx';
+import { GoldVsAntiquePhilosophy } from './components/GoldVsAntiquePhilosophy.tsx';
+import { BespokeAntiqueStudio } from './components/BespokeAntiqueStudio.tsx';
 import { ProductCatalog } from './components/ProductCatalog.tsx';
+import { MetalCraftsmanshipGuide } from './components/MetalCraftsmanshipGuide.tsx';
 import { ProductModal } from './components/ProductModal.tsx';
 import { CartDrawer } from './components/CartDrawer.tsx';
 import { CheckoutModal } from './components/CheckoutModal.tsx';
@@ -18,6 +27,7 @@ import { AdminPortalModal } from './components/AdminPortalModal.tsx';
 import { AuthModal } from './components/AuthModal.tsx';
 import { ClientProfileModal } from './components/ClientProfileModal.tsx';
 import { WishlistModal } from './components/WishlistModal.tsx';
+import { PrivateSalonBookingModal } from './components/PrivateSalonBookingModal.tsx';
 import { Footer } from './components/Footer.tsx';
 import { fetchProducts, fetchReviews } from './services/api.ts';
 import type { Product, Review } from './types/index.ts';
@@ -37,6 +47,7 @@ function AppContent() {
   const [isAdminOpen, setIsAdminOpen] = useState(false);
   const [isClientProfileOpen, setIsClientProfileOpen] = useState(false);
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+  const [isSalonOpen, setIsSalonOpen] = useState(false);
 
   const loadInitialData = async () => {
     try {
@@ -92,6 +103,7 @@ function AppContent() {
         onOpenAdmin={() => setIsAdminOpen(true)}
         onOpenClientProfile={() => setIsClientProfileOpen(true)}
         onOpenWishlist={() => setIsWishlistOpen(true)}
+        onOpenSalonModal={() => setIsSalonOpen(true)}
         activeCategory={selectedCategory}
       />
 
@@ -104,17 +116,66 @@ function AppContent() {
       {/* Trust & Hallmark Authenticity Pillars */}
       <TrustBanner />
 
-      {/* Main Product Catalog with Offer Selling Prices & Filter Controls */}
-      <ProductCatalog
+      {/* Quick Session Navigator Bar */}
+      <SessionQuickNavigator />
+
+      {/* Session 1: Haute Styling Lookbook Moodboards */}
+      <AntiqueStylingLookbook
         products={products}
-        selectedCategory={selectedCategory}
-        onSelectCategory={setSelectedCategory}
         onOpenProductModal={(prod) => setActiveProduct(prod)}
-        onOpenWishlist={() => setIsWishlistOpen(true)}
-        searchQuery={searchQuery}
-        onSearchChange={setSearchQuery}
-        loading={loading}
+        onSelectCategory={handleSelectCategory}
       />
+
+      {/* Session 2: Interactive Historical Provenance & Epochs */}
+      <AntiqueEpochsShowcase
+        products={products}
+        onSelectCategory={handleSelectCategory}
+        onOpenProductModal={(prod) => setActiveProduct(prod)}
+      />
+
+      {/* Session 3: Interactive Antique Jewellery Pairing Studio */}
+      <AntiquePairingStudio
+        products={products}
+        onOpenProductModal={(prod) => setActiveProduct(prod)}
+        onOpenCheckoutWithEnsemble={(prod, qty) => handleOpenCheckoutWithDirectItem(prod, qty)}
+      />
+
+      {/* Session 4: Numbered Archives & Collector's Vault */}
+      <CollectorVaultSection
+        products={products}
+        onOpenProductModal={(prod) => setActiveProduct(prod)}
+        onOpenSalonModal={() => setIsSalonOpen(true)}
+      />
+
+      {/* Session 5: The Connoisseur Manifesto - Why Patina Over Yellow Gold */}
+      <GoldVsAntiquePhilosophy />
+
+      {/* Session 6: Interactive Bespoke Suite Curation Session */}
+      <TrousseauCuratorSession
+        products={products}
+        onOpenProductModal={(prod) => setActiveProduct(prod)}
+        onOpenCheckoutWithItem={(prod, qty) => handleOpenCheckoutWithDirectItem(prod, qty)}
+      />
+
+      {/* Session 7: Bespoke Commission & Heirloom Restoration Atelier */}
+      <BespokeAntiqueStudio />
+
+      {/* Main Product Catalog with Offer Selling Prices & Filter Controls */}
+      <div id="catalog-section">
+        <ProductCatalog
+          products={products}
+          selectedCategory={selectedCategory}
+          onSelectCategory={setSelectedCategory}
+          onOpenProductModal={(prod) => setActiveProduct(prod)}
+          onOpenWishlist={() => setIsWishlistOpen(true)}
+          searchQuery={searchQuery}
+          onSearchChange={setSearchQuery}
+          loading={loading}
+        />
+      </div>
+
+      {/* Connoisseur Non-Gold Metallurgy & Assay Guide */}
+      <MetalCraftsmanshipGuide />
 
       {/* Heritage Craftsmanship Story */}
       <CraftsmanshipStory />
@@ -177,6 +238,12 @@ function AppContent() {
       <ClientProfileModal
         isOpen={isClientProfileOpen}
         onClose={() => setIsClientProfileOpen(false)}
+      />
+
+      {/* Private Styling Salon & Appointment Booking Modal */}
+      <PrivateSalonBookingModal
+        isOpen={isSalonOpen}
+        onClose={() => setIsSalonOpen(false)}
       />
 
       {/* Global Toast Alert Notifications */}

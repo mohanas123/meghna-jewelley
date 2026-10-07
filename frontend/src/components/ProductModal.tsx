@@ -242,10 +242,10 @@ export const ProductModal: React.FC<ProductModalProps> = ({
             <div className="mt-6 pt-5 border-t border-[#E2D8C7] space-y-2 text-xs text-[#6B5F4F]">
               <div className="flex items-center gap-2 font-medium text-[#2E2822]">
                 <ShieldCheck className="w-4 h-4 text-[#98702B]" />
-                <span>Government BIS 916 Laser Hallmarked</span>
+                <span>Certified 925 Silver & Platinum Assay (Non-Gold)</span>
               </div>
               <p className="text-[11px] leading-relaxed text-[#7C705F]">
-                Includes a physical assay certificate stamped with gold fineness, individual gross weight, and gemstone caratage report.
+                Includes an archival physical assay certificate stamped with 925 sterling silver fineness, individual gross weight, and certified gemstone caratage report.
               </p>
             </div>
           </div>
@@ -313,11 +313,11 @@ export const ProductModal: React.FC<ProductModalProps> = ({
               {/* Authentic Specifications Matrix */}
               <div className="mt-5 grid grid-cols-2 gap-3 text-xs bg-[#F4EFE6] p-3.5 rounded border border-[#E5DDCF]">
                 <div>
-                  <span className="text-[#847665] block text-[10px] uppercase font-semibold">Net Gold Weight</span>
+                  <span className="text-[#847665] block text-[10px] uppercase font-semibold">Net Precious Weight</span>
                   <span className="font-mono font-medium text-[#29241E]">{product.weight}</span>
                 </div>
                 <div>
-                  <span className="text-[#847665] block text-[10px] uppercase font-semibold">Gold Purity</span>
+                  <span className="text-[#847665] block text-[10px] uppercase font-semibold">Precious Metal Formulation</span>
                   <span className="font-medium text-[#29241E]">{product.purity}</span>
                 </div>
                 <div className="col-span-2">

@@ -41,6 +41,16 @@
         }
       ],
       "createdAt": "2026-10-07T07:13:43.360Z"
+    },
+    {
+      "id": "usr-538053",
+      "name": "mohana",
+      "email": "mohanaselvi6465@gmail.com",
+      "phone": "6374365123",
+      "password": "Mohana@6401",
+      "role": "client",
+      "savedAddresses": [],
+      "createdAt": "2026-10-07T08:08:58.053Z"
     }
   ],
   "coupons": [
@@ -72,85 +82,87 @@
   "products": [
     {
       "id": "mj-101",
-      "name": "Kamakshi Royal Nakshi Temple Choker",
-      "shortDescription": "22K antique matte gold with Goddess Lakshmi relief, uncut rubies and South Sea pearl drops.",
-      "description": "An heirloom temple masterpiece hand-carved using 8th-century Chettinad repoussé (nakshi) technique. The central medallion portrays Goddess Lakshmi flanked by sacred elephants, encircled by bezel-set cabochon Burmese rubies and natural basra pearl drops. Each link is hand-soldered with adjustable silk dori string.",
+      "name": "Victorian Emerald & Polki Antique Silver Choker",
+      "shortDescription": "Antique oxidized 925 sterling silver collar with natural Colombian emerald cabochons, uncut polki diamonds, and basra seed pearl fringe.",
+      "description": "An imperial Victorian heirloom collar hand-forged in solid 925 sterling silver with a darkened antique patina. Embellished with 14.2 carats of glowing Colombian emerald cabochons encased in delicate silver bezel prongs, encircled by foil-backed syndicate polki diamonds and a cascade of lustrous basra seed pearls. Non-gold precious alloy with custom adjustable zardozi silk cord.",
       "category": "Chokers & Necklaces",
-      "price": 185000,
-      "originalPrice": 215000,
-      "offerBadge": "Special Offer: 14% Off",
+      "price": 68500,
+      "originalPrice": 82000,
+      "offerBadge": "Victorian Era: 16% Off",
       "isDealOfTheDay": true,
-      "weight": "56.40 grams",
-      "purity": "22K Antique Hallmarked Gold (916 BIS)",
-      "gemstones": "Burmese Cabochon Rubies (4.80 cts), Polki Uncut Diamonds, Natural Seed Pearls",
-      "craftsmanship": "Hand-carved Nakshi repoussé relief with antique copper-oxide vintage finish. 74 hours artisan labor.",
-      "dimensions": "Length 8.5 in with adjustable threaded cord, Center drop 2.8 in",
+      "weight": "68.40 grams",
+      "purity": "925 Hallmarked Oxidized Sterling Silver & Platinum Accents (Non-Gold)",
+      "gemstones": "Natural Colombian Emeralds (14.2 cts), Syndicate Polki Diamonds, Basra Seed Pearls",
+      "craftsmanship": "Hand-chiseled repoussé relief with antique chiaroscuro oxidation. 58 hours master artisan work.",
+      "dimensions": "Length 8.5 in with adjustable threaded cord, Center drop 2.9 in",
       "inStock": true,
       "stockCount": 4,
       "isAntique": true,
       "isTrending": true,
       "isFeatured": true,
       "images": [
-        "/images/product_temple_choker.jpg",
-        "/images/hero_antique_jewellery.jpg"
+        "/images/emerald_antique_choker.jpg",
+        "/images/hero_fancy_antique.jpg"
       ],
       "tags": [
-        "Antique",
-        "Temple",
-        "Bridal",
-        "Bestseller"
+        "Victorian",
+        "Oxidized Silver",
+        "Emerald",
+        "Polki",
+        "Non-Gold"
       ],
-      "rating": 4.95,
-      "reviewCount": 38,
-      "sku": "MJ-TMP-NCK-101"
+      "rating": 4.96,
+      "reviewCount": 42,
+      "sku": "MJ-VIC-CHK-101"
     },
     {
       "id": "mj-102",
-      "name": "Padmavathi Jadau Kundan & Emerald Jhumkas",
-      "shortDescription": "Vintage matte finish three-tier temple bell jhumkas with Zambian emerald beads and polki studs.",
-      "description": "Trending antique jhumkas featuring floral stud tops with uncut flat polki diamonds set in 24k foil Jadau technique. Suspended below is an antique bell-shaped dome engraved with floral filigree and fringed with hand-knotted emerald beads and lustrous freshwater pearls.",
+      "name": "Victorian Blackened Silver & Emerald Bell Jhumkas",
+      "shortDescription": "Antique oxidized 925 silver chandelier bell jhumkas with natural Zambian emerald beads and syndicate polki daak studs.",
+      "description": "Dramatic vintage bell jhumkas crafted in blackened 925 sterling silver. The floral stud tops feature uncut flat polki diamonds set in heritage foil technique, suspending an antique filigree dome fringed with hand-knotted natural emerald beads and seed pearls. Designed for luxurious evening and bridal ensembles without gold weight.",
       "category": "Earrings & Jhumkas",
-      "price": 78500,
-      "originalPrice": 92000,
-      "offerBadge": "Trending Deal: 15% Off",
+      "price": 34500,
+      "originalPrice": 42000,
+      "offerBadge": "Trending Antique: 18% Off",
       "isDealOfTheDay": false,
-      "weight": "34.20 grams (pair)",
-      "purity": "22K Antique Yellow Gold (916 BIS)",
-      "gemstones": "Natural Zambian Emerald Melons (12.4 cts), Syndicate Polki (2.10 cts), Pearl Clusters",
-      "craftsmanship": "Traditional Bikaner Jadau setting with antique gold matte sheen.",
-      "dimensions": "Height 2.9 in, Bell diameter 1.1 in, Screw back with push closure",
+      "weight": "36.20 grams (pair)",
+      "purity": "925 Antiqued Sterling Silver with Darkened Vintage Patina (Non-Gold)",
+      "gemstones": "Natural Zambian Emerald Melons (18.6 cts), Syndicate Polki (3.4 cts), Seed Pearls",
+      "craftsmanship": "Traditional silver filigree piercing with antique rhodium wash.",
+      "dimensions": "Height 3.1 in, Bell diameter 1.2 in, Screw back with push closure",
       "inStock": true,
-      "stockCount": 7,
+      "stockCount": 6,
       "isAntique": true,
       "isTrending": true,
       "isFeatured": true,
       "images": [
+        "/images/victorian_silver_jhumkas.jpg",
         "/images/product_emerald_jhumkas.jpg"
       ],
       "tags": [
-        "Trending",
         "Jhumkas",
-        "Kundan",
-        "Emerald"
+        "Antique Silver",
+        "Emerald Drops",
+        "Victorian"
       ],
-      "rating": 4.92,
-      "reviewCount": 29,
-      "sku": "MJ-ANT-JHM-102"
+      "rating": 4.94,
+      "reviewCount": 35,
+      "sku": "MJ-VIC-JHM-102"
     },
     {
       "id": "mj-103",
-      "name": "Mayur Nakshi Heritage Temple Kada (Pair)",
-      "shortDescription": "Solid 22K matte antique gold bangles with twin peacock finials and ruby floral etching.",
-      "description": "A timeless statement pair of regal antique bangles. Featuring intricate floral vines etched along the cylindrical shaft and culminating in majestic sculpted peacocks facing each other. Fitted with concealed side screw hinges for effortless wearing without stretching or stress on the gold.",
+      "name": "Mayur Antique Oxidized Silver Peacock Kada (Pair)",
+      "shortDescription": "Solid 925 sterling silver cuff pair with twin sculpted peacock finials, ruby cabochons, and hand-carved floral vines.",
+      "description": "A museum-caliber pair of heavy antique silver bangles. Solid 925 sterling silver hand-carved with relief floral arabesques and culminating in regal peacocks crowned with cabochon rubies. Finished with an authentic darkened patina to highlight carving depth and fitted with discreet threaded safety screw locks.",
       "category": "Bangles & Kadas",
-      "price": 142000,
-      "originalPrice": 165000,
-      "offerBadge": "Save ₹23,000",
+      "price": 54000,
+      "originalPrice": 65000,
+      "offerBadge": "Save ₹11,000",
       "isDealOfTheDay": false,
-      "weight": "62.80 grams (pair)",
-      "purity": "22K Hallmarked Gold with Vintage Antique Finish",
-      "gemstones": "Natural Rubies (3.2 cts) bezel-set in peacock plumage",
-      "craftsmanship": "Heavy hollow-cast core with repoussé embossing and antique patina wash.",
+      "weight": "84.50 grams (pair)",
+      "purity": "925 Sterling Silver with Hand-Applied Chiaroscuro Patina (Non-Gold)",
+      "gemstones": "Natural Cabochon Rubies (4.5 cts) set in peacock plumage",
+      "craftsmanship": "Heavy solid core with hand-chiseled repoussé embossing and antique patina wash.",
       "dimensions": "Available in standard sizes 2.4, 2.6, 2.8 with safety lock pin",
       "inStock": true,
       "stockCount": 5,
@@ -158,67 +170,103 @@
       "isTrending": false,
       "isFeatured": true,
       "images": [
+        "/images/vintage_oxidized_cuff.jpg",
         "/images/product_heritage_kadas.jpg"
       ],
       "tags": [
-        "Antique",
-        "Bangles",
-        "Temple Jewelry",
-        "Heritage"
+        "Oxidized Silver",
+        "Peacock Kada",
+        "Heritage Cuff",
+        "Non-Gold"
       ],
-      "rating": 5,
-      "reviewCount": 19,
-      "sku": "MJ-HRT-KDA-103"
+      "rating": 5.0,
+      "reviewCount": 27,
+      "sku": "MJ-ANT-KDA-103"
     },
     {
       "id": "mj-104",
-      "name": "Sultana Emerald & Basra Pearl Jadau Rani Haar",
-      "shortDescription": "Trending royal multi-strand emerald bead necklace with ornate antique polki medallion.",
-      "description": "The epitome of vintage Mughal and South Indian bridal grandeur. Seven layered strands of calibrated Zambian emerald beads and woven natural seed pearls hold a dramatic 3-inch antique pendant featuring open polki diamonds in closed 24k foil settings with carved emerald drops.",
-      "category": "Rani Haars",
-      "price": 245000,
-      "originalPrice": 290000,
-      "offerBadge": "Bridal Privilege: ₹45,000 Off",
+      "name": "Art Deco Platinum-Finish Ceylon Sapphire Necklace",
+      "shortDescription": "Geometric platinum-dipped rhodium silver statement collar with cushion-cut sapphire drops and baguette crystals.",
+      "description": "High-glamour 1920s Art Deco architecture translated into fine jewellery. Rhodium-dipped sterling silver frames dazzling geometric baguette crystals and deep midnight Ceylon sapphire drops. A show-stopping gala statement piece free of yellow gold, embodying pure monochrome luxury.",
+      "category": "Chokers & Necklaces",
+      "price": 89000,
+      "originalPrice": 105000,
+      "offerBadge": "Art Deco Suite: 15% Off",
       "isDealOfTheDay": true,
-      "weight": "82.10 grams gross",
-      "purity": "22K Antique Hallmarked Gold & Sterling Setting",
-      "gemstones": "Zambian Emerald Beads (118.5 cts), Natural Basra Seed Pearls (42 cts), Polki (6.8 cts)",
-      "craftsmanship": "Master Jadau artisan hand-stringing with handmade zardozi tassel back cord.",
-      "dimensions": "Total necklace length 24 in adjustable, Center pendant 3.2 in x 2.4 in",
+      "weight": "72.10 grams",
+      "purity": "Platinum & Rhodium Plated Precious Sterling Alloy (Non-Gold)",
+      "gemstones": "Cushion-cut Royal Ceylon Sapphires (22.5 cts), Baguette Crystals, Pavé Accents",
+      "craftsmanship": "Art Deco milgrain bezel settings with rhodium mirror polish.",
+      "dimensions": "Length 16.5 in with concealed safety box clasp and 2 in extension",
       "inStock": true,
       "stockCount": 3,
       "isAntique": true,
       "isTrending": true,
       "isFeatured": true,
       "images": [
-        "/images/product_rani_haar.jpg",
-        "/images/hero_antique_jewellery.jpg"
+        "/images/sapphire_artdeco_necklace.jpg",
+        "/images/hero_fancy_antique.jpg"
       ],
       "tags": [
-        "Trending",
-        "Rani Haar",
-        "Bridal",
-        "Luxury"
+        "Art Deco",
+        "Sapphire",
+        "Platinum Finish",
+        "Gala Necklace",
+        "Non-Gold"
       ],
       "rating": 4.98,
-      "reviewCount": 42,
-      "sku": "MJ-ROY-RNH-104"
+      "reviewCount": 31,
+      "sku": "MJ-DEC-SAP-104"
     },
     {
       "id": "mj-105",
-      "name": "Aishwarya Antique Floral Chandbali",
-      "shortDescription": "Crescent moon antique ear pendants with uncut polki, seed pearl fringe and ruby highlights.",
-      "description": "A celebrated trending design favored by modern royal brides. Delicate openwork gold floral motifs within an antique gold crescent (chand), fringed with micro pearl bunches and teardrop ruby briolettes that sway gracefully with movement.",
+      "name": "Edwardian Keshi Baroque Pearl & Polki Rani Haar",
+      "shortDescription": "Multi-strand natural keshi freshwater baroque pearls holding an ornate antique oxidized silver and polki diamond medallion.",
+      "description": "Seven lustrous cascading tiers of hand-selected irregular keshi baroque freshwater pearls converge into a grand 3.2-inch antique silver medallion. The pendant showcases open syndicate polki diamond crystals set in antique foil collets, fringed with hand-carved Colombian emerald beads and a zardozi tassel cord.",
+      "category": "Rani Haars",
+      "price": 98000,
+      "originalPrice": 120000,
+      "offerBadge": "Privilege Heirloom: Save ₹22,000",
+      "isDealOfTheDay": true,
+      "weight": "96.40 grams gross",
+      "purity": "925 Antique Silver Setting with Zardozi Silk Tassel (Non-Gold)",
+      "gemstones": "Natural Keshi Baroque Pearls (140 cts), Polki Uncut Diamonds (8.2 cts), Emerald Drops",
+      "craftsmanship": "Master hand-stringing with Japanese micro-knotting and hand-engraved silver pendant.",
+      "dimensions": "Total necklace length 26 in adjustable, Center pendant 3.4 in x 2.6 in",
+      "inStock": true,
+      "stockCount": 3,
+      "isAntique": true,
+      "isTrending": true,
+      "isFeatured": true,
+      "images": [
+        "/images/baroque_pearl_haar.jpg",
+        "/images/product_rani_haar.jpg"
+      ],
+      "tags": [
+        "Baroque Pearl",
+        "Rani Haar",
+        "Edwardian",
+        "Antique Silver"
+      ],
+      "rating": 4.97,
+      "reviewCount": 39,
+      "sku": "MJ-EDW-PRL-105"
+    },
+    {
+      "id": "mj-106",
+      "name": "Aishwarya Antique Silver Floral Chandbali",
+      "shortDescription": "Crescent moon antique ear pendants in blackened silver filigree with uncut polki, ruby briolettes, and seed pearl fringe.",
+      "description": "An aristocratic crescent moon silhouette reimagined in antique blackened sterling silver. Intricate lattice filigree surrounds foil-backed polki crystals, swaying with teardrop ruby briolettes and micro basra seed pearls. Lightweight, non-gold, and strikingly photogenic.",
       "category": "Earrings & Jhumkas",
-      "price": 64000,
-      "originalPrice": 75000,
-      "offerBadge": "15% Festive Price",
+      "price": 28500,
+      "originalPrice": 34000,
+      "offerBadge": "Festive Deal: 16% Off",
       "isDealOfTheDay": false,
-      "weight": "28.50 grams",
-      "purity": "22K Antique Gold (916 BIS)",
-      "gemstones": "Polki Diamond Simulants & Natural Rubies, Seed Pearls",
-      "craftsmanship": "Hand pierced filigree with antique oxidized gold polish.",
-      "dimensions": "Length 2.6 in, Width 1.7 in",
+      "weight": "26.40 grams (pair)",
+      "purity": "925 Antique Oxidized Sterling Silver (Non-Gold)",
+      "gemstones": "Uncut Polki Simulants & Natural Rubies, Micro Basra Pearls",
+      "craftsmanship": "Pierced openwork filigree with antique charcoal oxidation.",
+      "dimensions": "Length 2.7 in, Width 1.8 in",
       "inStock": true,
       "stockCount": 8,
       "isAntique": true,
@@ -226,32 +274,33 @@
       "isFeatured": false,
       "images": [
         "/images/product_floral_chandbali.jpg",
-        "/images/product_emerald_jhumkas.jpg"
+        "/images/victorian_silver_jhumkas.jpg"
       ],
       "tags": [
         "Chandbali",
-        "Trending",
-        "Lightweight Antique"
+        "Oxidized Silver",
+        "Polki",
+        "Lightweight"
       ],
-      "rating": 4.88,
-      "reviewCount": 24,
-      "sku": "MJ-ANT-CHB-105"
+      "rating": 4.89,
+      "reviewCount": 26,
+      "sku": "MJ-ANT-CHB-106"
     },
     {
-      "id": "mj-106",
-      "name": "Meenakshi Royal Bridal Heirloom Set",
-      "shortDescription": "Complete 3-piece antique temple choker, matching jhumkas and maang tikka set.",
-      "description": "A grand bridal trousseau package crafted for weddings and auspicious celebrations. Includes the signature Kamakshi Nakshi Choker, matching heavy chandelier jhumkas with ear chains (mattal), and an ornate floral maang tikka. Delivered in Meghna Jewellery handcrafted teakwood velvet presentation box with authenticity certificate.",
+      "id": "mj-107",
+      "name": "Duchess Grand Imperial Antique Gala Trousseau Set",
+      "shortDescription": "Complete 3-piece Victorian antique silver choker, matching chandelier jhumkas, and maang tikka with Colombian emeralds and polki.",
+      "description": "A magnificent non-gold royal trousseau package crafted for wedding soirees and grand receptions. Includes the signature Victorian Emerald Choker, matching heavy chandelier jhumkas with detachable ear-chains, and an ornate floral maang tikka. Delivered in Meghna Jewellery handcrafted teakwood velvet presentation box with authenticity assay report.",
       "category": "Bridal Sets",
-      "price": 310000,
-      "originalPrice": 375000,
-      "offerBadge": "Wedding Trousseau Offer: Save ₹65,000",
+      "price": 128000,
+      "originalPrice": 155000,
+      "offerBadge": "Imperial Suite: Save ₹27,000",
       "isDealOfTheDay": true,
-      "weight": "124.60 grams total gold",
-      "purity": "22K BIS Hallmarked Antique Matte Finish Gold",
-      "gemstones": "Burmese Rubies, Zambian Emeralds, Polki & South Sea Pearls",
-      "craftsmanship": "Complete artisan coordination across 3 workshops in Tamil Nadu & Rajasthan.",
-      "dimensions": "Choker 9 in, Jhumkas 3.2 in with 4.5 in mattal chain, Maang Tikka 5.5 in",
+      "weight": "142.80 grams total silver weight",
+      "purity": "925 Hallmarked Sterling Silver & Platinum Finish (Non-Gold)",
+      "gemstones": "Colombian Emeralds, Uncut Polki Diamonds, Baroque Seed Pearls",
+      "craftsmanship": "Artisan coordinated suite across atelier workshops in Jaipur & Chennai.",
+      "dimensions": "Choker 9 in, Jhumkas 3.3 in with 4.5 in mattal chain, Maang Tikka 5.5 in",
       "inStock": true,
       "stockCount": 2,
       "isAntique": true,
@@ -259,19 +308,88 @@
       "isFeatured": true,
       "images": [
         "/images/product_royal_bridal_set.jpg",
-        "/images/product_temple_choker.jpg"
+        "/images/emerald_antique_choker.jpg"
       ],
       "tags": [
-        "Bridal Heirloom",
+        "Bridal Suite",
         "Full Set",
-        "Antique Masterpiece"
+        "Antique Silver",
+        "Grand Gala"
       ],
-      "rating": 5,
-      "reviewCount": 16,
-      "sku": "MJ-BRD-SET-106"
+      "rating": 5.0,
+      "reviewCount": 21,
+      "sku": "MJ-BRD-STE-107"
+    },
+    {
+      "id": "mj-108",
+      "name": "Kamakshi Heritage Temple Choker in Antique Silver",
+      "shortDescription": "Intricate hand-carved Goddess Lakshmi relief choker in oxidized silver with cabochon rubies and basra pearl drops.",
+      "description": "An iconic temple masterpiece hand-carved in solid 925 sterling silver using 8th-century repoussé (nakshi) technique. The central medallion portrays Goddess Lakshmi flanked by sacred elephants, encircled by bezel-set cabochon rubies and basra pearl drops. Antiqued dark matte finish celebrating non-gold sculptural jewelry.",
+      "category": "Chokers & Necklaces",
+      "price": 62000,
+      "originalPrice": 74000,
+      "offerBadge": "Heritage Offer: 16% Off",
+      "isDealOfTheDay": false,
+      "weight": "64.20 grams",
+      "purity": "925 Antique Oxidized Silver with Heritage Patina (Non-Gold)",
+      "gemstones": "Burmese Cabochon Rubies (5.2 cts), Syndicate Polki, Basra Pearls",
+      "craftsmanship": "Hand-carved Nakshi repoussé relief with darkened vintage wash. 64 hours labor.",
+      "dimensions": "Length 8.5 in with adjustable cord, Center drop 2.8 in",
+      "inStock": true,
+      "stockCount": 4,
+      "isAntique": true,
+      "isTrending": true,
+      "isFeatured": false,
+      "images": [
+        "/images/product_temple_choker.jpg",
+        "/images/hero_fancy_antique.jpg"
+      ],
+      "tags": [
+        "Temple Choker",
+        "Oxidized Silver",
+        "Nakshi",
+        "Ruby Drops"
+      ],
+      "rating": 4.93,
+      "reviewCount": 33,
+      "sku": "MJ-TMP-SLV-108"
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "userId": "usr-538053",
+      "customerName": "mohana",
+      "email": "mohanaselvi6465@gmail.com",
+      "phone": "6374365123",
+      "shippingAddress": {
+        "street": "coimabtore",
+        "city": "coimbatore",
+        "state": "tamilnadu",
+        "pincode": "64001",
+        "country": "India"
+      },
+      "items": [
+        {
+          "productId": "mj-104",
+          "name": "Sultana Emerald & Basra Pearl Jadau Rani Haar",
+          "price": 245000,
+          "quantity": 1,
+          "image": "/images/product_rani_haar.jpg"
+        }
+      ],
+      "subtotal": 245000,
+      "discount": 0,
+      "shipping": 0,
+      "total": 245000,
+      "currency": "INR",
+      "paymentMethod": "UPI",
+      "notes": "",
+      "id": "ord-1791360608223",
+      "orderNumber": "MJ-361302",
+      "status": "Received",
+      "createdAt": "2026-10-07T08:10:08.223Z"
+    }
+  ],
   "categories": [
     {
       "id": "cat-all",
@@ -347,17 +465,17 @@
   ],
   "settings": {
     "storeName": "Meghna Jewellery",
-    "tagline": "Authentic Antique & Trending Fine Jewellery",
+    "tagline": "Haute Joaillerie, Victorian & Fancy Antique Non-Gold Jewellery",
     "phone": "+91 98401 22890",
     "whatsapp": "+91 98401 22890",
     "email": "concierge@meghnajewellery.com",
     "address": "14/B Heritage Guild, T. Nagar, Chennai 600017, India",
     "currency": "INR",
-    "freeShippingThreshold": 50000,
-    "hallmarkId": "BIS-916-TN-48201",
-    "announcementText": "✨ Festive Privileges: Complimentary Insured Armored Delivery + 10% Off with Code MEGHNA10",
+    "freeShippingThreshold": 25000,
+    "hallmarkId": "ASSAY-925-SLV-48201 (925 Sterling Silver & Platinum Assay)",
+    "announcementText": "✨ Private Salon Privileges: Complimentary Armored Vault Delivery + 10% Privilege on Antique Silver Heirlooms with Code MEGHNA10",
     "offerBannerActive": true,
-    "activeOfferTitle": "Heritage Bridal & Antique Festival",
+    "activeOfferTitle": "Grand Antique & Victorian Heirloom Salon",
     "activeOfferDiscount": 15
   },
   "priceAlerts": []

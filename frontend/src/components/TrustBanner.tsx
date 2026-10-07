@@ -5,23 +5,23 @@ export const TrustBanner: React.FC = () => {
   const pillars = [
     {
       icon: ShieldCheck,
-      title: 'BIS 916 Hallmarked',
-      subtitle: 'Government assay certified 22K pure antique gold',
+      title: '925 Silver & Platinum Assay',
+      subtitle: 'Certified precious 925 sterling silver & rhodium (Non-Gold)',
     },
     {
       icon: Gem,
-      title: 'Certified Natural Polki',
-      subtitle: 'Uncut syndicate polki, natural rubies & emeralds',
+      title: 'Syndicate Polki & Emeralds',
+      subtitle: 'Silver-foil daak setting, Colombian emeralds & sapphires',
     },
     {
       icon: Truck,
       title: 'Insured Armored Courier',
-      subtitle: 'High-security discreet transit with OTP handover',
+      subtitle: 'Discreet high-security vault transit with OTP handover',
     },
     {
       icon: RotateCcw,
-      title: 'Lifetime Exchange Value',
-      subtitle: 'Guaranteed 100% gold benchmark exchange policy',
+      title: 'Lifetime Provenance Guarantee',
+      subtitle: 'Signed metallurgical assay card & restoration warranty',
     },
   ];
 

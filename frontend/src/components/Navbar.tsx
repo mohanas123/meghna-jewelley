@@ -12,6 +12,7 @@ interface NavbarProps {
   onOpenAdmin: () => void;
   onOpenClientProfile: () => void;
   onOpenWishlist: () => void;
+  onOpenSalonModal?: () => void;
   activeCategory: string;
 }
 
@@ -21,6 +22,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenAdmin,
   onOpenClientProfile,
   onOpenWishlist,
+  onOpenSalonModal,
   activeCategory,
 }) => {
   const { totalItems, setIsCartOpen } = useCart();
@@ -32,28 +34,37 @@ export const Navbar: React.FC<NavbarProps> = ({
   const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
 
   const navLinks = [
-    { label: 'All Pieces', value: 'All Jewellery' },
-    { label: 'Temple Chokers', value: 'Chokers & Necklaces' },
+    { label: 'All Heirlooms', value: 'All Jewellery' },
+    { label: 'Victorian Collars', value: 'Chokers & Necklaces' },
     { label: 'Antique Jhumkas', value: 'Earrings & Jhumkas' },
-    { label: 'Heritage Kadas', value: 'Bangles & Kadas' },
-    { label: 'Rani Haars', value: 'Rani Haars' },
+    { label: 'Oxidized Kadas', value: 'Bangles & Kadas' },
+    { label: 'Baroque Haars', value: 'Rani Haars' },
+    { label: 'Gala Suites', value: 'Bridal Sets' },
   ];
 
   return (
     <>
       {/* Subtle announcement strip: single line, no pill badges */}
-      <div className="bg-[#171513] text-[#D6C7A8] text-xs py-2 px-4 tracking-wider text-center border-b border-[#2A241E]">
+      <div className="bg-[#141210] text-[#D6C7A8] text-xs py-2 px-4 tracking-wider text-center border-b border-[#2A241E]">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="hidden sm:flex items-center gap-2 text-[11px] text-[#A8987E]">
             <ShieldCheck className="w-3.5 h-3.5 text-[#C9A24D]" />
-            <span>BIS 916 Hallmarked 22K Gold & Syndicate Polki</span>
+            <span>925 Oxidized Sterling Silver & Platinum Assay (Non-Gold)</span>
           </div>
           <div className="mx-auto sm:mx-0 text-[11px] font-medium flex items-center gap-1.5">
-            <span>Festive Privileges: Complimentary Armored Delivery</span>
+            <span>Complimentary Insured Vault Delivery</span>
             <span className="text-[#7A6B53]">·</span>
-            <span className="text-[#E8D9B8] font-semibold">Code: MEGHNA10 (10% Off)</span>
+            <span className="text-[#E8D9B8] font-semibold">Code: MEGHNA10 (10% Privilege)</span>
           </div>
           <div className="hidden md:flex items-center gap-4 text-[11px] text-[#A8987E]">
+            {onOpenSalonModal && (
+              <button
+                onClick={onOpenSalonModal}
+                className="text-[#C9A24D] hover:text-[#F3EAD3] font-medium transition-colors cursor-pointer"
+              >
+                Book Private Salon
+              </button>
+            )}
             {isAdmin ? (
               <button
                 onClick={onOpenAdmin}
@@ -68,7 +79,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 className="hover:text-[#F3EAD3] transition-colors cursor-pointer"
                 title="Studio Merchant Portal"
               >
-                Studio Merchant Portal
+                Studio Portal
               </button>
             )}
           </div>
@@ -240,6 +251,17 @@ export const Navbar: React.FC<NavbarProps> = ({
                 {wishlistCount}
               </span>
             </button>
+            {onOpenSalonModal && (
+              <button
+                onClick={() => {
+                  onOpenSalonModal();
+                  setMobileMenuOpen(false);
+                }}
+                className="w-full text-left py-2 text-sm font-medium text-[#98702B] hover:text-[#7A581F] flex items-center gap-2"
+              >
+                <span>Book Private Styling Salon</span>
+              </button>
+            )}
             <div className="pt-3 border-t border-[#E8E2D8] flex items-center justify-between text-xs">
               {user ? (
                 <button

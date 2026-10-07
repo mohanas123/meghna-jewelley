@@ -17,18 +17,18 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, onOpenAdmin })
               Meghna Jewellery
             </h3>
             <p className="text-xs text-[#9E907B] leading-relaxed">
-              Curators of rare handcrafted antique temple jewellery, syndicate jadau polki, and heirloom bridal adornments in 22K certified hallmarked gold.
+              Curators of rare handcrafted fancy antique non-gold jewellery, Victorian 925 sterling silver collars, Art Deco platinum-dipped sapphires, and heirloom trousseau suites.
             </p>
             <div className="flex items-center gap-2 text-xs text-[#C9A24D]">
               <ShieldCheck className="w-4 h-4" />
-              <span>Government of India BIS 916 Hallmarked</span>
+              <span>925 Sterling Silver & Platinum Assay (Non-Gold)</span>
             </div>
           </div>
 
           {/* Heirlooms Navigation */}
           <div className="space-y-3">
             <h4 className="text-xs uppercase tracking-widest text-[#C9A24D] font-semibold">
-              The Private Vault
+              The Antique Vault
             </h4>
             <ul className="space-y-2 text-xs text-[#B5A58E]">
               <li>
@@ -36,7 +36,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, onOpenAdmin })
                   onClick={() => onSelectCategory('Chokers & Necklaces')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
-                  Temple Chokers & Necklaces
+                  Victorian Silver Collars
                 </button>
               </li>
               <li>
@@ -44,7 +44,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, onOpenAdmin })
                   onClick={() => onSelectCategory('Earrings & Jhumkas')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
-                  Jadau Kundan & Antique Jhumkas
+                  Blackened Bell Jhumkas & Chandbalis
                 </button>
               </li>
               <li>
@@ -52,7 +52,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, onOpenAdmin })
                   onClick={() => onSelectCategory('Bangles & Kadas')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
-                  Nakshi Peacock Kada Pairs
+                  Sculpted Peacock Silver Kadas
                 </button>
               </li>
               <li>
@@ -60,7 +60,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, onOpenAdmin })
                   onClick={() => onSelectCategory('Rani Haars')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
-                  Multi-Strand Jadau Rani Haars
+                  Baroque Keshi Pearl Haars
                 </button>
               </li>
               <li>
@@ -68,7 +68,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, onOpenAdmin })
                   onClick={() => onSelectCategory('Bridal Sets')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
-                  Royal Bridal Trousseau Sets
+                  Imperial Gala Trousseau Suites
                 </button>
               </li>
             </ul>

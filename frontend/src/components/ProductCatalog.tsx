@@ -372,7 +372,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
                       <span aria-hidden="true">·</span>
                       <span className="font-mono tabular-nums">{product.weight}</span>
                       <span aria-hidden="true">·</span>
-                      <span>{product.purity.split(' ')[0]}</span>
+                      <span className="font-semibold text-[#8C6D33]">925 Silver (Non-Gold)</span>
                     </div>
 
                     {/* Product Name */}
